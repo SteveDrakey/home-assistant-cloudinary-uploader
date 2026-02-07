@@ -21,7 +21,7 @@
   },
   "exceptions": {
     "path_not_allowed": {
-      "message": "Path ''{file_path}'' is not in the allowlist. Add it to ''allowlist_external_dirs'' in configuration.yaml."
+      "message": "Path {file_path} is not in the allowlist. Add it to allowlist_external_dirs in configuration.yaml."
     },
     "file_not_found": {
       "message": "File not found: {file_path}"
