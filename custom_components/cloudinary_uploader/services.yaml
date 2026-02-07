@@ -1,0 +1,20 @@
+upload_image:
+  name: Upload Image
+  description: Upload a local image file to Cloudinary.
+  fields:
+    file_path:
+      name: File Path
+      description: The local file path of the image to upload.
+      required: true
+      example: "/config/www/camera/snapshot.jpg"
+      selector:
+        text:
+    public_id:
+      name: Public ID
+      description: >-
+        The Cloudinary public ID for the uploaded asset. Using the same
+        public_id will overwrite the previous version.
+      required: true
+      example: "home_camera/front_door"
+      selector:
+        text:

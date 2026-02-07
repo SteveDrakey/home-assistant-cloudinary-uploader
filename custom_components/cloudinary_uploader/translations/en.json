@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Cloudinary Credentials",
+        "description": "Enter your Cloudinary API credentials. You can find them on the Cloudinary dashboard.",
+        "data": {
+          "cloud_name": "Cloud Name",
+          "api_key": "API Key",
+          "api_secret": "API Secret"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid credentials. Please check your API key and secret.",
+      "cannot_connect": "Unable to connect to Cloudinary. Please try again."
+    },
+    "abort": {
+      "already_configured": "This Cloudinary cloud name is already configured."
+    }
+  },
+  "exceptions": {
+    "path_not_allowed": {
+      "message": "Path '{file_path}' is not in the allowlist. Add it to 'allowlist_external_dirs' in configuration.yaml."
+    },
+    "file_not_found": {
+      "message": "File not found: {file_path}"
+    }
+  }
+}
