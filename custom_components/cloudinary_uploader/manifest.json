@@ -1,0 +1,11 @@
+{
+  "domain": "cloudinary_uploader",
+  "name": "Cloudinary Uploader",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/SteveDrakey/home-assistant-cloudinary-uploader",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/SteveDrakey/home-assistant-cloudinary-uploader/issues",
+  "requirements": ["cloudinary==1.41.0"],
+  "version": "1.0.0"
+}
